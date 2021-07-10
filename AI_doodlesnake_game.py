@@ -1,11 +1,11 @@
-
+#引用的库
 import random
 import pygame
 import sys
 import time
 from pygame.locals import *
 
-
+#相关配置
 SCREEN_WIDTH = 800
 SCREEN_HEIGHT = 500
 SIZE = 20
