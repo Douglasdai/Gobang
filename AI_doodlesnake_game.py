@@ -35,11 +35,11 @@ move_directions = {
         'up': -GAME_W,
         'down': GAME_W
         }
-
+#显示相关坐标等
 def print_text(screen, font, x, y, text, fcolor=(255, 255, 255)):
 	imgText = font.render(text, True, fcolor)
 	screen.blit(imgText, (x, y))
-
+#关闭游戏
 def close_game():
 	pygame.quit()
 	sys.exit()
